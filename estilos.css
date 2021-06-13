@@ -59,7 +59,17 @@ header a {
 }
 
 nav ul {
+  display: flex;
+  justify-content: space-around;
+
   margin-bottom: 0;
+  list-style-type: none;
+  padding: 0 25em;
+}
+
+nav ul > li {
+  margin: 4px 2px;
+  text-align: center;
 }
 
 /* --- Conteúdo principal da página --- */
