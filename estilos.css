@@ -68,7 +68,7 @@ nav ul {
 }
 
 nav ul > li {
-  margin: 4px 2px;
+  margin: 8px 2px;
   text-align: center;
 }
 
@@ -212,6 +212,34 @@ main {
 
 .tag-3 {
   font-size: 150%;
+}
+
+/* --- Boos --- */
+
+.boo {
+  position: absolute;
+  opacity: 0.02;
+  width: 40px;
+}
+
+.boo:hover {
+  opacity: 1;
+}
+
+.boo1 {
+  transform: scaleX(-1);
+  right: 0;
+  bottom: 290px;
+}
+
+.boo2 {
+  top: 80px;
+  left: 300px;
+}
+
+.boo3 {
+  left: 0;
+  bottom: 450px;
 }
 
 /* --- Rodapé --- */
