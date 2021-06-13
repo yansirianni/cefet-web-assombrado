@@ -164,6 +164,16 @@ main {
   background-color: orange;
   color: white;
   text-shadow: 1px 1px black;
+
+  position: relative;
+  cursor: pointer;
+}
+
+.tag-1:active,
+.tag-2:active,
+.tag-3:active {
+  right: 2px;
+  bottom: 2px;
 }
 
 .tag-2 {
