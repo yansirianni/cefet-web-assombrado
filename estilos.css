@@ -135,6 +135,17 @@ main {
   display: inline-block;
 }
 
+.novidade::before {
+  content: "Novidade!";
+  display: inline-block;
+
+  color: white;
+  background-color: #039c1d;
+  padding: 0.25em 0.5em;
+  border-radius: 5px;
+  text-align: center;
+}
+
 /* --- Principal >> Nuvem de tags --- */
 #tags {
   float: right;
